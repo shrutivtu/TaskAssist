@@ -1,0 +1,73 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+.container{
+	width:50%;
+	margin:0 auto;
+	padding:10px;
+}
+#todoname{
+	width:90%;
+	height:70px;
+	margin-left:20px;
+	outline: none;
+	padding-left:20px;
+	padding-right:20px;
+	border:1px solid #DDDDDD;
+	box-shadow: 0 1px 2px 0 rgba(60,64,67,0.302), 0 2px 6px 2px rgba(60,64,67,0.149);
+}
+input[type="text"] {
+    font-size:25px;
+}
+#list-display{
+	width:100%;
+	min-height:700px;
+}
+.unorderedlist{
+	width:80%;
+	padding:15px;
+	text-align:center;
+}
+.checked{
+	text-decoration: line-through;
+}
+.listitem{
+	list-style: none;
+	min-width:100%;
+	margin: 0 auto;
+	border:1px solid #DDDDDD;
+	border-radius: 5px;
+	min-height:40px;
+	margin-left:55px;
+	text-align: center;
+	padding-top:10px;
+	padding-bottom: 10px;
+	box-sizing: border-box;
+	box-shadow: 0 1px 2px 0 rgba(60,64,67,0.302), 0 2px 6px 2px rgba(60,64,67,0.149);
+}
+.checkbox{
+	width:50px;
+	height:30px;
+	/*margin-top:10px;*/
+	margin-right:20px;
+}
+.itemname{
+	font-size:40px;
+	font-weight:200;
+	margin-right: 20px;
+	/*margin-bottom: 5px;*/
+	position: relative;
+	bottom:3px;
+	outline: none;
+}
+.del-button{
+	width:60px;
+	height:40px;
+	/*margin-bottom:20px;*/
+	position: relative;
+	bottom: 8px;
+	border-radius: 5px;
+	border:none;
+	cursor: pointer;
+}
